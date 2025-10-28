@@ -44,20 +44,21 @@ The model achieves an accuracy of approximately **97.7%** on the test dataset.
 
 
 ## Setup and Installation
-1. Clone the Repository
+### 1. Clone the Repository
   ```bash
   git clone https://github.com/ziakhursheed/Cuisine_Classification.git
-  cd Cuisine_Classification
+  cd Cuisine_Classification  
+  ```
 
-2. Create and Activate a Virtual Environment
+### 2. Create and Activate a Virtual Environment
   python -m venv .venv
   .venv\Scripts\activate    # On Windows
   (# source .venv/bin/activate  # On macOS/Linux)
 
-3. Install Dependencies
+### 3. Install Dependencies
   pip install -r requirements.txt
 
-4. Run the Application
+### 4. Run the Application
   streamlit run app.py
 
 ---
